@@ -1,1 +1,139 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+}
+
+em {
+  font-style: normal;
+}
+
+.weather-wrapper {
+  width: 900px;
+  margin: 10px auto 20px;
+}
+
+.weather-wrapper #place {
+  text-align: center;
+  font-size: 44px;
+  margin: 30px 0;
+}
+
+.weather-wrapper .oneday-wrapper {
+  padding: 20px 0;
+}
+
+.weather-wrapper .oneday-wrapper .dayOfWeek {
+  text-align: center;
+  font-size: 32px;
+}
+
+.weather-wrapper .oneday-wrapper .current-weather {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+
+.weather-wrapper .oneday-wrapper .current-weather .weather-icon {
+  width: 200px;
+}
+
+.weather-wrapper .oneday-wrapper .current-weather .weather-discription {
+  font-size: 22px;
+}
+
+.weather-wrapper .oneday-wrapper .current-weather .weather-discription em {
+  font-size: 32px;
+}
+
+.weather-wrapper .oneday-wrapper .current-weather .weather-discription .weather-detail {
+  margin-left: 30px;
+}
+
+.weather-wrapper .oneday-wrapper .current-weather .weather-discription .current-weather__description {
+  padding: 10px;
+}
+
+.weather-wrapper .oneday-wrapper .current-weather .weather-discription .current-weather__temp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px solid #666;
+  padding: 10px;
+}
+
+.weather-wrapper .oneday-wrapper .current-weather .weather-discription .current-weather__temp .curent-temp-wrapper {
+  border-top: 1px solid #666;
+}
+
+.weather-wrapper .oneday-wrapper .current-weather .weather-discription .current-weather__temp .current-temp {
+  margin-right: 30px;
+}
+
+.weather-wrapper .oneday-wrapper .forecast-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.weather-wrapper .oneday-wrapper .forecast-list .forecast-hour {
+  width: calc(100% / 7);
+  padding: 16px 8px;
+  text-align: center;
+  border: 1px solid #666;
+  border-right: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.weather-wrapper .oneday-wrapper .forecast-list .forecast-hour:last-child {
+  border-right: 1px solid #666;
+}
+
+.weather-wrapper .oneday-wrapper .forecast-list .forecast-hour img {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
