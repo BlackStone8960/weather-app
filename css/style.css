@@ -21,6 +21,10 @@ em {
   font-style: normal;
 }
 
+.hide {
+  display: none !important;
+}
+
 .weather-wrapper {
   width: 900px;
   margin: 10px auto 20px;
@@ -30,6 +34,42 @@ em {
   text-align: center;
   font-size: 44px;
   margin: 30px 0;
+  letter-spacing: 3px;
+}
+
+.weather-wrapper .oneday-container {
+  position: relative;
+}
+
+.weather-wrapper .oneday-container > div:last-of-type {
+  border-bottom: 1px solid #666;
+}
+
+.weather-wrapper .toggle-arrow {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+
+.weather-wrapper .oneday-short {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #666;
+  border-bottom: none;
+  padding: 3px;
+  font-size: 20px;
 }
 
 .weather-wrapper .oneday-wrapper {
